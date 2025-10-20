@@ -7,13 +7,13 @@ basic:
   title: Backend Developer           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # file path or link to your avatar
+    path: /assets/images/photo.jpg # file path or link to your avatar
 
 contact:
-  location: Beijing, China  # location, text or markdown link syntax
-  email: me@example.com     # email address
-  phone: +86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: example.com      # site link without schema, like example.com, will automatically prepend "https://"
+  # location: Beijing, China  # location, text or markdown link syntax
+  email: gang-li@tamu.edu    # email address
+  # phone: +86-111-2222-3333  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  # website: example.com      # site link without schema, like example.com, will automatically prepend "https://"
 
   gender:                   # gender or pronoun
   birthday:                 # birthday
@@ -25,7 +25,7 @@ contact:
   # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
 
   # programming
-  github:                   # https://github.com/<username>
+  github: GangLii                   # https://github.com/<username>
   gitlab:                   # https://gitlab.com/<username>
   bitbucket:                # https://bitbucket.com/<username>
   git:                      # selfhost git site link without schema "https://"
@@ -33,12 +33,12 @@ contact:
   codeforces:               # https://codeforces.com/profile/<username>
   codewars:                 # https://www.codewars.com/users/<username>
   topcoder:                 # https://profiles.topcoder.com/<username>
-  huggingface:              # https://huggingface.co/<username>
+  huggingface: ganglii              # https://huggingface.co/<username>
   codepen:                  # https://codepen.io/<username>
   tryhackme:                # https://tryhackme.com/p/<username>
 
   # research
-  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  googlescholar:    sc0ZUQQAAAAJ&hl=en         # https://scholar.google.com/citations?user=<username>
   researchgate:             # https://www.researchgate.net/profile/<username>
   orcid:                    # https://orcid.org/<id>
   figshare:                 # https://figshare.com/authors/<name/id>
@@ -60,7 +60,7 @@ contact:
   producthunt:              # https://www.producthunt.com/@<username>
 
   # cv
-  linkedin:                 # https://linkedin.com/in/<username>
+  linkedin:  gang-li-01732a295              # https://linkedin.com/in/<username>
   indeed:                   # https://my.indeed.com/p/<id>
   xing:                     # https://www.xing.com/profile/<username>
   fiverr:                   # https://www.fiverr.com/<username>
