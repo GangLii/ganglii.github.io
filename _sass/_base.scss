@@ -156,7 +156,7 @@ small {
   .basic {
     display: flex;
     flex-direction: row;  // left-to-right layout
-    justify-content: center; // center both columns in the container
+    justify-content: flex-start; // align both columns to the left
     align-items: center;
     gap: 2rem; // space between avatar and text
   
@@ -166,7 +166,7 @@ small {
 
     .avatar {
       flex-shrink: 0; // don't let it resize
-      max-height: 240px; // smaller image size
+      max-height: 200px; // smaller image size
       // border-radius: 50%; // optional: make it circular
       overflow: hidden;
   
