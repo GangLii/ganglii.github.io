@@ -181,7 +181,7 @@ small {
       display: flex;
       flex-direction: column; // stack items vertically
       align-items: flex-start; // align text to the left
-      flex: 1; // take up available left-side space
+      flex: 0 0 auto;          // don't stretch
       gap: 0.8rem; // space between text rows
   
       .name {
