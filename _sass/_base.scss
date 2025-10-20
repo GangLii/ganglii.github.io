@@ -161,7 +161,7 @@ small {
     gap: 2rem; // space between avatar and text
   
     padding: 2rem; // outer spacing around the entire section
-    margin: 0 auto; // center the whole block horizontally
+    margin-left: 2rem;    // move away from page edge (optional)
     max-width: 1200px; // optional: limit total width
 
     .avatar {
