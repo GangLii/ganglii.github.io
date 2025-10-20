@@ -3,8 +3,8 @@ meta:
   language: en              # text language, the value is HTML lang attribute value, default is "en"
 
 basic:
-  name: Foo Bar                      # name
-  title: Backend Developer           # job title
+  name: Gang Li                      # name
+  title: PhD Student at Texas A&M University          # job title
   avatar:
     show: true                       # show or hide avatar
     path: /assets/images/photo.jpg # file path or link to your avatar
@@ -38,7 +38,7 @@ contact:
   tryhackme:                # https://tryhackme.com/p/<username>
 
   # research
-  googlescholar:    sc0ZUQQAAAAJ&hl=en         # https://scholar.google.com/citations?user=<username>
+  googlescholar: sc0ZUQQAAAAJ         # https://scholar.google.com/citations?user=<username>
   researchgate:             # https://www.researchgate.net/profile/<username>
   orcid:                    # https://orcid.org/<id>
   figshare:                 # https://figshare.com/authors/<name/id>

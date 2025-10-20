@@ -155,51 +155,70 @@ small {
 
   .basic {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-
-    .avatar {
-      max-height: 100px;
-      border: 0px solid $wrapper-color;
-      // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    }
-
+    flex-direction: row;  // left-to-right layout
+    justify-content: center; // center both columns in the container
+    align-items: center;
+    gap: 2rem; // space between avatar and text
+  
+    padding: 2rem; // outer spacing around the entire section
+    margin: 0 auto; // center the whole block horizontally
+    max-width: 1200px; // optional: limit total width
+  
     .header {
       display: flex;
-      flex-direction: column;
-      flex-basis: 100%;
-
+      flex-direction: column; // stack items vertically
+      align-items: flex-start; // align text to the left
+      flex: 1; // take up available left-side space
+      gap: 0.8rem; // space between text rows
+  
       .name {
         font-size: $huge-font-size;
-        margin-top: 0;
-        margin-bottom: $spacing-unit / 4;
+        font-weight: bold;
+        margin: 0;
       }
-
+  
       .title {
         color: $text-second-color;
         font-size: $middle-font-size;
-        font-weight: $base-font-weight;
-        margin-top: 0;
-        margin-bottom: $spacing-unit / 4;
+        margin: 0;
       }
-
+  
       .contact {
         display: flex;
-        flex-wrap: wrap;
-
+        flex-direction: column; // stack contact links vertically
+        gap: 0.4rem;
+  
         .contact-item {
-          display: inline-flex;
-          align-items: baseline;
-
-          &:not(:last-child)::after {
-            content: $contact-delimiter;
+          display: flex;
+          align-items: center;
+          font-size: $small-font-size;
+  
+          a {
             color: $text-third-color;
-            margin: 0 0.5em;
+            text-decoration: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
     }
+  
+    .avatar {
+      flex-shrink: 0; // don't let it resize
+      max-height: 300px; // smaller image size
+      // border-radius: 50%; // optional: make it circular
+      overflow: hidden;
+  
+      img {
+        display: block;
+        height: 100%;
+        width: auto;
+      }
+    }
   }
+  
 
   .certificate,
   .award,
