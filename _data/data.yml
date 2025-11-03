@@ -139,16 +139,16 @@ project:
   show: true
   order: 4
   title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+  # description: |
+  #   The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+  #   In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
 
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+  #   The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Personal project
-      link: '#'
+    - name: "LibAUC: A Deep Learning Library for X-Risk Optimization"
+      link: 'https://libauc.org/'
       tags:
       date: 2015 - 2017
       description: |
@@ -286,7 +286,7 @@ publication:
   #   Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
 
   items:
-    - title: DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization
+    - title: "DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization"
       authors: <strong>Li, G. </strong>, Lin, M., Galanti, T., Tu, Z., Yang, T.
       conference: Advances in Neural Information Processing Systems (<strong> NeurIPS 2025 </strong>)
       link: https://arxiv.org/abs/2505.12366
@@ -301,12 +301,12 @@ publication:
       conference: Transactions on Machine Learning Research (<strong> TMLR 2024 </strong>)
       link: 'https://openreview.net/pdf?id=MJOKrHqiV1'
 
-    - title: LibAUC: A Deep Learning Library for X-risk Optimization
+    - title: "LibAUC: A Deep Learning Library for X-risk Optimization"
       authors: Yuan, Z., Zhu, D.*, Qiu, Z.*, <strong>Li, G.* </strong>, Wang, X., Yang, T.
       conference: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<strong> KDD 2023 </strong>)
       link: https://dl.acm.org/doi/pdf/10.1145/3580305.3599861
 
-    - title: When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee
+    - title: "When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee"
       authors: Zhu, D.*, <strong>Li, G.* </strong>, Wang, B., Wu, X.,  Yang, T.
       conference: International Conference on Machine Learning (<strong> ICML 2022 </strong>)
       link: https://proceedings.mlr.press/v162/zhu22g/zhu22g.pdf
@@ -333,7 +333,7 @@ certificate:
   #   The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
 
   items:
-    - title: DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization
+    - title: "DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization"
       authors: <strong>Li, G.</strong>, Chen, Y., Lin, M., Yang, T.
       conference: preprints
       link: https://arxiv.org/pdf/2510.04474
