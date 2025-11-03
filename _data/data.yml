@@ -102,41 +102,39 @@ contact:
 profile:
   show: true
   order: 1
-  title: Profile
+  title: About
   description: |
-    The profile section in a resume is a brief summary of the applicant's skills, qualifications, and experience. The purpose of this section is to provide a snapshot of the applicant's professional background and highlight their most relevant accomplishments and strengths. It may include information such as the applicant's career objectives, years of experience, areas of expertise, and key achievements.
-
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
+    Rooted in optimization for machine learning, my research focuses on developing robust deep learning algorithms, including stable reinforcement learning for large reasoning models, robust imbalanced learning, adversarially robust learning, continual learning and fairness for multi-output models. My research is applicable but not limited to large reasoning model training, imbalanced classifications (AUC optimization), adversarial ranking and detection problems (AUPRC/AP optimization), fairness for multi-label/multi-class classification and representation learning, and continually improving large foundation models with zero-forgetting. Recently, I have focused on enhancing large reasoning models with efficient and structured thinking.
 
 experience:
   show: true
   order: 2
   title: Experiences
-  description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
+  # description: |
+  #   The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Second Company
-      link: '#'
-      tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+    - company: Meta
+      # link: '#'
+      # tags: Full-time
+      date: 2025.05 - 2025.08
+      role: Software Engineer Intern
+      location: Sunnyvale, California, U.S.
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Enhancing model efficiency and performance for ads recommendation systems.
+      # + First
+      # + Second
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+    # - company: First Company
+    #   link:
+    #   tags: Part-time, remote
+    #   date: 2017.03 - 2018.03
+    #   role: Backend Developer
+    #   location: Beijing
+    #   description: |
+    #     Your key responsibilities and achievements in the company.
+    #     + First
+    #     + Second
 
 project:
   show: true
@@ -279,24 +277,40 @@ publication:
   show: true
   order: 7
   title: Publications
-  description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
+  # description: |
+  #   The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
 
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
+  #   Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
 
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
+  #   If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
 
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
+  #   Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
 
   items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
+    - title: 'DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization'
+      authors: **Li, G**., Lin, M., Galanti, T., Tu, Z., Yang, T.
+      conference: Advances in Neural Information Processing Systems (NeurIPS 2025)
+      link: https://arxiv.org/abs/2505.12366
+
+    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+      authors: **Li, G**., Tong, W., Yang, T.
+      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+
+    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+      authors: **Li, G**., Tong, W., Yang, T.
+      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+
+    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+      authors: **Li, G**., Tong, W., Yang, T.
+      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+
+    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+      authors: **Li, G**., Tong, W., Yang, T.
+      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
 award:
   show: true
