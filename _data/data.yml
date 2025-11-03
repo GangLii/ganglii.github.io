@@ -344,32 +344,30 @@ award:
   show: true
   order: 5
   title: Selected Awards
-  # description: |
-  #   The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
-
-  #   When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
-
-  #   By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
-
-  items:
-    - name: Academic First-Class Scholarship
-      awarder: University of Electronic Science and Technology of China
-      date: 2018, 2019
-      # link: '#'
-      # description: |
-      #   It's my Example Awared One by Example.
-    - name: Outstanding Graduate Award
-      awarder: University of Electronic Science and Technology of China
-      date: 2018
-      # link:
-      # description: |
-      #   It's my Example Awared Two by Example.
-    - name: National Encouragement Scholarship
-      awarder: University of Electronic Science and Technology of China
-      date: 2016
-    - name: People's Scholarship
-      awarder: University of Electronic Science and Technology of China
-      date: 2015, 2017
+  description: |
+    + Academic First-Class Scholarship, University of Electronic Science and Technology of China, 2018, 2019
+    + Outstanding Graduate Award, University of Electronic Science and Technology of China, 2018
+    + National Encouragement Scholarship, University of Electronic Science and Technology of China, 2016 
+    + People's Scholarship, University of Electronic Science and Technology of China, 2015, 2017
+  # items:
+  #   - name: Academic First-Class Scholarship
+  #     awarder: University of Electronic Science and Technology of China
+  #     date: 2018, 2019
+  #     # link: '#'
+  #     # description: |
+  #     #   It's my Example Awared One by Example.
+  #   - name: Outstanding Graduate Award
+  #     awarder: University of Electronic Science and Technology of China
+  #     date: 2018
+  #     # link:
+  #     # description: |
+  #     #   It's my Example Awared Two by Example.
+  #   - name: National Encouragement Scholarship
+  #     awarder: University of Electronic Science and Technology of China
+  #     date: 2016
+  #   - name: People's Scholarship
+  #     awarder: University of Electronic Science and Technology of China
+  #     date: 2015, 2017
 
 # patent:
 #   show: true
