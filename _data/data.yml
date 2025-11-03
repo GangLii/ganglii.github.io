@@ -120,8 +120,8 @@ experience:
       date: 2025.05 - 2025.08
       role: Software Engineer Intern
       location: Sunnyvale, California, U.S.
-      # description: |
-      #   Enhancing model efficiency and performance for ads recommendation systems.
+      description: |
+      
       + Enhancing model efficiency and performance for ad recommendation systems.
       # + Second
 
@@ -138,7 +138,7 @@ experience:
 
 project:
   show: true
-  order: 3
+  order: 4
   title: Projects
   description: |
     The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
