@@ -104,7 +104,7 @@ profile:
   order: 1
   title: About
   description: |
-    Rooted in optimization for machine learning, my research focuses on developing robust deep learning algorithms, including stable reinforcement learning for large reasoning models, robust imbalanced learning, adversarially robust learning, continual learning and fairness for multi-output models. My research is applicable but not limited to large reasoning model training, imbalanced classifications (AUC optimization), adversarial ranking and detection problems (AUPRC/AP optimization), fairness for multi-label/multi-class classification and representation learning, and continually improving large foundation models with zero-forgetting. Recently, I have focused on enhancing large reasoning models with efficient and structured thinking.
+    I'm a PhD student at Texas A&M University. Rooted in optimization for machine learning, my research focuses on developing robust deep learning algorithms, including stable reinforcement learning for large reasoning models, continual post-training for large foundation models, robust imbalanced learning, adversarially robust learning. My research is applicable but not limited to developing high-performance reasoning models, continually improving large foundation models with zero-forgetting, imbalanced classifications (AUC optimization), adversarial ranking and object(fraud) detection problems (AUPRC/AP optimization). Recently, I have focused on enhancing LLM's reasoning with efficient and structured thinking.
 
 experience:
   show: true
@@ -120,9 +120,9 @@ experience:
       date: 2025.05 - 2025.08
       role: Software Engineer Intern
       location: Sunnyvale, California, U.S.
-      description: |
-        Enhancing model efficiency and performance for ads recommendation systems.
-      # + First
+      # description: |
+      #   Enhancing model efficiency and performance for ads recommendation systems.
+      + Enhancing model efficiency and performance for ad recommendation systems.
       # + Second
 
     # - company: First Company
@@ -288,7 +288,7 @@ publication:
 
   items:
     - title: 'DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization'
-      authors: Li, G., Lin, M., Galanti, T., Tu, Z., Yang, T.
+      authors: <strong>Li, G. </strong>, Lin, M., Galanti, T., Tu, Z., Yang, T.
       conference: Advances in Neural Information Processing Systems (NeurIPS 2025)
       link: https://arxiv.org/abs/2505.12366
 
