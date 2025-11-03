@@ -288,29 +288,29 @@ publication:
 
   items:
     - title: 'DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization'
-      authors: **Li, G**., Lin, M., Galanti, T., Tu, Z., Yang, T.
+      authors: Li, G., Lin, M., Galanti, T., Tu, Z., Yang, T.
       conference: Advances in Neural Information Processing Systems (NeurIPS 2025)
       link: https://arxiv.org/abs/2505.12366
 
     - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
-      authors: **Li, G**., Tong, W., Yang, T.
+      authors: Li, G., Tong, W., Yang, T.
       conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
       link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
-    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
-      authors: **Li, G**., Tong, W., Yang, T.
-      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
-      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+    # - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+    #   authors: **Li, G**., Tong, W., Yang, T.
+    #   conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+    #   link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
-    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
-      authors: **Li, G**., Tong, W., Yang, T.
-      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
-      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+    # - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+    #   authors: **Li, G**., Tong, W., Yang, T.
+    #   conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+    #   link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
-    - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
-      authors: **Li, G**., Tong, W., Yang, T.
-      conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
-      link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
+    # - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness.
+    #   authors: **Li, G**., Tong, W., Yang, T.
+    #   conference: Advances in Neural Information Processing Systems (NeurIPS 2023 Spotlight)
+    #   link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
 award:
   show: true
