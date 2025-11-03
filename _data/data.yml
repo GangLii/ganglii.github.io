@@ -137,7 +137,7 @@ experience:
 
 project:
   show: true
-  order: 4
+  order: 5
   title: Projects
   # description: |
   #   The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
@@ -149,21 +149,19 @@ project:
   items:
     - name: "LibAUC: A Deep Learning Library for X-Risk Optimization"
       link: 'https://libauc.org/'
-      tags:
-      date: 2015 - 2017
+      tags: 
+      date: May 2022 - present
       description: |
-        Personal project description...
-        + First
-        + Second
+        LibAUC is a novel deep learning library to offer an easier way to directly optimize commonly used performance measures such as AUC, partial AUC, AP, mAP, NDCG, etc, with user-friendly APIs. As one of the main contributors, I implemented the new version of surrogate losses for AUPRC/AP and partial AUROC that are suitable for classification of imbalanced data. Currently, I’m responsible for the update of this website.
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
+    # - name: ESCI Challenge for Improving Product Search
+    #   link:
+    #   tags: 
+    #   date:
+    #   description: |
+    #     OSS project description...
+    #     + First
+    #     + Second
 
 # skill:
 #   show: true
@@ -316,8 +314,6 @@ publication:
       conference: Advances in Neural Information Processing Systems (<strong> NeurIPS 2022 </strong>)
       link: https://proceedings.neurips.cc/paper_files/paper/2022/file/d13ee73683fd5567e5c07634a25cd7b8-Paper-Conference.pdf
     
-  description: |
-    "* Denotes Equal Contribution."
 
 certificate:
   show: true
@@ -348,26 +344,32 @@ award:
   show: true
   order: 5
   title: Selected Awards
-  description: |
-    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
+  # description: |
+  #   The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
 
-    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
+  #   When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
 
-    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
+  #   By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
 
   items:
-    - name: Example Awared One
-      awarder: by Example
-      date: 2022
-      link: '#'
-      description: |
-        It's my Example Awared One by Example.
-    - name: Example Awared Two
-      awarder: by Example
-      date: 2022
-      link:
-      description: |
-        It's my Example Awared Two by Example.
+    - name: Academic First-Class Scholarship
+      awarder: University of Electronic Science and Technology of China
+      date: 2018, 2019
+      # link: '#'
+      # description: |
+      #   It's my Example Awared One by Example.
+    - name: Outstanding Graduate Award
+      awarder: University of Electronic Science and Technology of China
+      date: 2018
+      # link:
+      # description: |
+      #   It's my Example Awared Two by Example.
+    - name: National Encouragement Scholarship
+      awarder: University of Electronic Science and Technology of China
+      date: 2016
+    - name: People's Scholarship
+      awarder: University of Electronic Science and Technology of China
+      date: 2015, 2017
 
 # patent:
 #   show: true
@@ -447,38 +449,32 @@ award:
 
 #     A well-crafted self-evaluation section can demonstrate your self-awareness and confidence in your abilities, as well as your willingness to continuously learn and grow. However, it is important to be honest and avoid over-inflating your skills or qualifications, as this can negatively impact your credibility and the hiring manager's impression of you.
 
-# reference:
-#   show: true
-#   order: 14
-#   title: References
-#   description: |
-#     A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
+reference:
+  show: true
+  order: 14
+  title: Services
+  description: |
+    + Reviewer of ICML, NeurIPS, ICLR
+    + Reviewer of TPAMI, Neurocomputing 
+  # items:
+  #   - name: Foo One
+  #     link: '#'
+  #     title: Backend Developer
+  #     institution: Second Company
+  #     address: 1234 Example St, XXX, XY 11111
+  #     email: foo.one@example.com
+  #     phone: 111-222-333
+  #     description: |
+  #       Foo One was my colleague in Second Company.
 
-#     It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-#     When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-#     It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
-
-#   items:
-#     - name: Foo One
-#       link: '#'
-#       title: Backend Developer
-#       institution: Second Company
-#       address: 1234 Example St, XXX, XY 11111
-#       email: foo.one@example.com
-#       phone: 111-222-333
-#       description: |
-#         Foo One was my colleague in Second Company.
-
-#     - name: Bar Two
-#       link:
-#       title: Professor
-#       institution: Example University
-#       address: 4321 Example St, YYY, XY 22222
-#       email: bar.two@example.com
-#       phone: 444-555-666
-#       description: |
-#         Bar Two was my advisor at Example University.
+  #   - name: Bar Two
+  #     link:
+  #     title: Professor
+  #     institution: Example University
+  #     address: 4321 Example St, YYY, XY 22222
+  #     email: bar.two@example.com
+  #     phone: 444-555-666
+  #     description: |
+  #       Bar Two was my advisor at Example University.
 
 close: <strong>Sorry, my resume has been hidden.</strong>
