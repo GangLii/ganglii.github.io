@@ -154,14 +154,12 @@ project:
       description: |
         LibAUC is a novel deep learning library to offer an easier way to directly optimize commonly used performance measures such as AUC, partial AUC, AP, mAP, NDCG, etc, with user-friendly APIs. As one of the main contributors, I implemented the new version of surrogate losses for AUPRC/AP and partial AUROC that are suitable for classification of imbalanced data. Currently, I’m responsible for the update of this website.
 
-    # - name: ESCI Challenge for Improving Product Search
-    #   link:
-    #   tags: 
-    #   date:
-    #   description: |
-    #     OSS project description...
-    #     + First
-    #     + Second
+    - name: ESCI Challenge for Improving Product Search
+      link:
+      tags: "Amazon KDD CUP 2022, Rank:7/26"
+      date: May 2022 - Jul. 2022
+      description: |
+        + Amazon KDD CUP 2022, Rank:7/26
 
 # skill:
 #   show: true
@@ -419,7 +417,7 @@ award:
 #     - item: Cooking
 #       link:
 
-evaluation:
+organization:
   show: true
   order: 13
   title: Teaching Assistant
