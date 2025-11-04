@@ -315,7 +315,7 @@ publication:
       link: https://proceedings.neurips.cc/paper_files/paper/2022/file/d13ee73683fd5567e5c07634a25cd7b8-Paper-Conference.pdf
     
 
-certificate:
+patent:
   show: true
   order: 4
   title: Preprints
@@ -425,7 +425,7 @@ evaluation:
   title: Teaching Assistant
   description: |
     + CS:3330: Algorithm, Spring 2023, instructed by Prof. Denise Szecsei, the University of Iowa.
-    
+
 reference:
   show: true
   order: 14
