@@ -152,14 +152,25 @@ project:
       tags: 
       date: May 2022 - present
       description: |
-        LibAUC is a novel deep learning library to offer an easier way to directly optimize commonly used performance measures such as AUC, partial AUC, AP, mAP, NDCG, etc, with user-friendly APIs. As one of the main contributors, I implemented the new version of surrogate losses for AUPRC/AP and partial AUROC that are suitable for classification of imbalanced data. Currently, I’m responsible for the update of this website.
+        + LibAUC is a novel deep learning library to directly optimize commonly used performance measures such as AUC, partial AUC, AP, mAP, NDCG, etc. 
+        + Contributed as a main developer to implementing new surrogate losses for AUPRC/AP and partial AUROC, enhancing classification performance on imbalanced datasets. 
+        + Currently in charge of maintaining and updating this website.
 
     - name: ESCI Challenge for Improving Product Search
       link:
-      tags: "Amazon KDD CUP 2022, Rank:7/26"
+      tags:
       date: May 2022 - Jul. 2022
       description: |
-        + Amazon KDD CUP 2022, Rank:7/26
+        + Amazon KDD CUP 2022
+        + Rank:7/26
+
+    - name: Estimation of the Demographic Attributes of Advertising Audience
+      link:
+      tags: 
+      date: May 2020 - Jul. 2020
+      description: |
+        + Tencent Advertising Algorithm Competition 2020
+        + Rank:25/1146
 
 # skill:
 #   show: true
