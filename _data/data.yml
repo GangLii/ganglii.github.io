@@ -293,33 +293,38 @@ publication:
   #   Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
 
   items:
+    - title: "DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization"
+      authors: <strong>Gang Li</strong>, Yan Chen, Ming Lin, and Tianbao Yang.
+      conference: International Conference on Learning Representations (<strong> ICLR 2026 </strong>)
+      link: https://arxiv.org/pdf/2510.04474
+
     - title: "DisCO: Reinforcing Large Reasoning Models with Discriminative Constrained Optimization"
-      authors: <strong>Li, G. </strong>, Lin, M., Galanti, T., Tu, Z., Yang, T.
+      authors: <strong>Gang Li</strong>, Ming Lin, Tomer Galanti, Zhengzhong Tu, and Tianbao Yang.
       conference: Advances in Neural Information Processing Systems (<strong> NeurIPS 2025 </strong>)
       link: https://arxiv.org/abs/2505.12366
 
     - title:  Maximization of Average Precision for Deep Learning with Adversarial Ranking Robustness
-      authors: <strong>Li, G. </strong>, Tong, W., Yang, T.
+      authors: <strong>Gang Li</strong>, Wei Tong, and Tianbao Yang.
       conference: Advances in Neural Information Processing Systems ( <strong> NeurIPS 2023</strong>) (<strong>Spotlight </strong>)
       link: 'https://proceedings.neurips.cc/paper_files/paper/2023/file/31f04c174a6af322e9417b7a9a91097a-Paper-Conference.pdf'
 
     - title:  Multi-Output Distributional Fairness via Post-Processing
-      authors: <strong>Li, G. </strong>, Lin, Q., Ghosh, A. and Yang, T.
+      authors: <strong>Gang Li</strong>, Qihang Lin, Ayush Ghosh, and Tianbao Yang.
       conference: Transactions on Machine Learning Research (<strong> TMLR 2024 </strong>)
       link: 'https://openreview.net/pdf?id=MJOKrHqiV1'
 
     - title: "LibAUC: A Deep Learning Library for X-risk Optimization"
-      authors: Yuan, Z., Zhu, D.*, Qiu, Z.*, <strong>Li, G.* </strong>, Wang, X., Yang, T.
+      authors: Zhuoning Yuan, Dixian Zhu*, Zi-Hao Qiu*, <strong>Gang Li*</strong>, Xuanhui Wang, and Tianbao Yang.
       conference: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<strong> KDD 2023 </strong>)
       link: https://dl.acm.org/doi/pdf/10.1145/3580305.3599861
 
     - title: "When AUC meets DRO: Optimizing Partial AUC for Deep Learning with Non-Convex Convergence Guarantee"
-      authors: Zhu, D.*, <strong>Li, G.* </strong>, Wang, B., Wu, X.,  Yang, T.
+      authors: Dixian Zhu*, <strong>Gang Li*</strong>, Bokun Wang, Xiaodong Wu, and Tianbao Yang. 
       conference: International Conference on Machine Learning (<strong> ICML 2022 </strong>)
       link: https://proceedings.mlr.press/v162/zhu22g/zhu22g.pdf
 
     - title: Multi-block-Single-probe Variance Reduced Estimator for Coupled Compositional Optimization
-      authors: Jiang, W., <strong>Li, G. </strong>, Wang, Y., Zhang, L.,  Yang, T.
+      authors: Wei Jiang, <strong>Gang Li</strong>, Yibo Wang, Lijun Zhang, and Tianbao Yang.
       conference: Advances in Neural Information Processing Systems (<strong> NeurIPS 2022 </strong>)
       link: https://proceedings.neurips.cc/paper_files/paper/2022/file/d13ee73683fd5567e5c07634a25cd7b8-Paper-Conference.pdf
     
@@ -329,7 +334,6 @@ patent:
   order: 4
   title: Preprints
   description: |
-    + **Li, G.**, Chen, Y., Lin, M., Yang, T., *DRPO: Efficient Reasoning via Decoupled Reward Policy Optimization*.
     + **Li, G.**, Yu, W., Yao, Y., Tong, W., Liang, Y., Lin, Q., Yang, T., *A Retention-Centric Framework for Continual Learning with Guaranteed Model Developmental Safety*. 
 
 award:
